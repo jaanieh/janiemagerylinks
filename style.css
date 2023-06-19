@@ -1,0 +1,141 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+
+
+
+body {
+    background-image: url(background1.jpg);
+    background-position: 15% 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+    
+}
+
+.content {
+    text-align: center;
+}
+
+.rubrik {
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 300px;
+}
+
+
+
+ul {
+    background-color: rgba(246, 237, 246, 0.9);
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 0;
+    border-radius: 40px;
+    padding: 15px 58px 15px 30px;
+}
+
+
+ul p {
+    display: inline-block;
+    margin: 2px;
+    padding: 0;
+}
+
+ul .heading, div .rubrik {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}
+
+ul .desc {
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #505050;
+    
+}
+
+ul img {
+    float: left;
+}
+
+a {
+    color: #000000;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 480px) {
+  
+    div .rubrik {
+    font-size: 80%;
+    }
+
+    .logo img {
+    width: 60%;
+    }
+    
+    ul {
+        width: 80%;
+        padding: 15px 30px 15px 30px;
+    }
+    
+    ul img {
+        width: 15%;
+    }
+    ul .heading {
+        font-size: 90%;
+    }
+    
+    ul .desc {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  
+    div .rubrik {
+    font-size: 80%;
+    }
+
+    .logo img {
+    width: 60%;
+    }
+    
+    ul {
+        width: 80%;
+        padding: 15px 30px 15px 30px;
+    }
+    
+    ul img {
+        width: 10%;
+    }
+    ul .heading {
+        font-size: 90%;
+    }
+    
+    ul .desc {
+        font-size: 12px;
+    }
+
+}
