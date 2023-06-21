@@ -85,6 +85,12 @@ footer {
 
 
 @media screen and (max-width: 480px) {
+    
+    body {
+    background-size: 200%;
+    background-position: 50% 70%;
+    }
+  
   
     div .rubrik {
     font-size: 80%;
@@ -113,7 +119,8 @@ footer {
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  
+    
+    
     div .rubrik {
     font-size: 80%;
     }
